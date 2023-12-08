@@ -1,0 +1,40 @@
+.header {
+    width: 100%;
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman';
+    font-size: 1.125rem;
+
+    img {
+        margin-left: 0.5rem;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .active {
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 960px) {
+    .headerItems {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        justify-content: flex-start;
+    }
+
+    .mobileHeadersWidth {
+        width: 100%;
+    }
+}
