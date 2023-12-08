@@ -43,6 +43,6 @@
         "prettier": "^2.3.0"
     },
     "exports": {
-        "./index.js": "./index.js"
+        "./index.js": "./pages/index.js"
     }
 }
