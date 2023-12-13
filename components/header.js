@@ -8,7 +8,7 @@ import { Container, Navbar } from 'react-bootstrap';
 import { MENU_ITEMS } from '../constants/nav_links';
 import css from '../styles/header.module.scss';
 
-export default function Header({ menuItems=MENU_ITEMS }) {
+export function Header({ menuItems=MENU_ITEMS }) {
     const router = useRouter();
     const navItemsJSX = menuItems.map((link, index) => {
         const classes = classNames({

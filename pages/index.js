@@ -1,13 +1,12 @@
+import { ARHeader } from 'aandrheader';
 import React from 'react';
-import { BuildCopyrightYears, Footer, Header } from '../components';
 
 const HomePage = () => {
   return (
     <div>
-      <Header />
+      <ARHeader />
+      {console.log(<ARHeader />)}
       {/* Your main content goes here */}
-      <Footer />
-      <BuildCopyrightYears />
     </div>
   );
 };

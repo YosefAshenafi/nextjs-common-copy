@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function BuildCopyrightYears(yearCreated) {
+export function BuildCopyrightYears(yearCreated) {
     const CURRENT_YEAR = new Date().getFullYear();
 
     return (

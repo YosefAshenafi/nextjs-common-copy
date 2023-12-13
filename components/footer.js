@@ -11,7 +11,7 @@ import BuildCopyrightYears from './buildCopyrightYears';
 
 library.add(fab, faFacebookF, faTwitter);
 
-export default function Footer({ yearCreated=YEAR_CREATED, companyName=COMPANY_NAME }) {
+export function Footer({ yearCreated=YEAR_CREATED, companyName=COMPANY_NAME }) {
 
     return (
         <>

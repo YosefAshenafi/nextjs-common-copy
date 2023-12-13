@@ -771,6 +771,11 @@
     "@zeit/next-css" "1.0.1"
     sass-loader "6.0.6"
 
+aandrheader@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/aandrheader/-/aandrheader-1.0.3.tgz#a03cb6cc31315870d6c060e491fae1124dd726fe"
+  integrity sha512-vguqjYv97482uqL/Xy7samQ7l3OiTV718ViJxSllOdAyaKlLPJArOtaR1NaEPjTWZIKGciGb4QTQPt35j6+2NQ==
+
 accepts@~1.3.8:
   version "1.3.8"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.8.tgz#0bf0be125b67014adcb0b0921e62db7bffe16b2e"
@@ -3003,6 +3008,40 @@ next@^10.2.0:
     util "0.12.3"
     vm-browserify "1.1.2"
     watchpack "2.1.1"
+
+"nextjs-common@https://github.com/YosefAshenafi/nextjs-common-copy.git":
+  version "0.1.0"
+  resolved "https://github.com/YosefAshenafi/nextjs-common-copy.git#9d1b8c913489f5d8699ef90795736726b0ce4f1a"
+  dependencies:
+    "@fortawesome/fontawesome-svg-core" "^1.2.36"
+    "@fortawesome/free-brands-svg-icons" "^5.15.4"
+    "@fortawesome/free-regular-svg-icons" "^5.15.4"
+    "@fortawesome/free-solid-svg-icons" "^5.15.4"
+    "@fortawesome/react-fontawesome" "^0.1.15"
+    "@material-ui/core" "^4.12.3"
+    "@material-ui/icons" "^4.11.2"
+    "@zeit/next-sass" "^1.0.1"
+    bootstrap "^5.3.2"
+    classnames "^2.3.1"
+    date-fns "^2.17.0"
+    file-system "^2.2.2"
+    gray-matter "^4.0.2"
+    jquery "^3.5.1"
+    less "^3.12.2"
+    lodash "^4.17.21"
+    next "^10.2.0"
+    next-mdx-remote "^3.0.4"
+    next-remote-watch "^1.0.0"
+    node-fetch "^2.6.1"
+    object-path "^0.11.5"
+    popper.js "^1.16.1"
+    react "^18.2.0"
+    react-bootstrap "^2.9.1"
+    react-dom "^18.2.0"
+    react-obfuscate "^3.6.8"
+    react-safe "^1.3.0"
+    sass "^1.26.10"
+    webpack "^5.30.0"
 
 node-fetch@2.6.1:
   version "2.6.1"
